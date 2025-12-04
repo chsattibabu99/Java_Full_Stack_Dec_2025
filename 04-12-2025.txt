@@ -1,0 +1,79 @@
+Programming Concepts
+--------------------
+- Comments :- //, /* */
+- Keywords :- class, int, float, Enum
+- Variables:- studentName, className,
+- Datatypes:- int, float 0.8f, double, char, byte, String, boolean, long
+- Declaration of a Variable:- String student_name, String studentName
+- Method/Function
+Java Introduction
+-----------------
+- Java is an Object Oriented Programming Language developed by James Gosling
+  at Sun Microsystems
+- Sun Microsystems is acquired by Oracle Corp in 2010 year
+Object Oriented Concepts java 25 java 8(2014),Java 11,  Java 17 (Migration) 
+------------------------
+- Object
+- Class
+- Abstraction
+- Encapsulation
+- Inheritance
+- Polymorphism
+Object
+------
+An object is a real time entity which has identity, state and behavior
+Refer diagram Object.png
+Class
+-----
+A class is a collection of data members and methods
+Ex:
+	class Person
+	{
+	   //Data members
+	   int age;
+	   String name;
+	   float height;
+           //Methods
+ 	   void walk(){...}
+           void eat(){...}
+	}
+{} => block/scope
+age = 25;//error
+The members (data members/methods) of the class are accessed using objects with dot(.) operator
+Creating objects
+----------------
+syntax (Rules of a language)
+------
+ClassName objName = new ClassName();
+Ex:
+	Person p = new Person();//p is an object of class Person
+p.age = 25;
+	p.name = "John";
+	p.height = 5.4;
+	p.walk();
+	p.eat();
+
+
+Virtual Machine:- A Machine Which simulates the physical machine and perform the tasks like physical machine. 
+Types of Virtual Machines:-
+1. Hardware type Virtual machines/system based (single machines multiple Users) (Kernal based Virtual Based ) , VMWare 
+	2. Application based or Software based Virtual Machines (Java Virtual Machine) 
+	These Virtual Machines are runtime Engine to run Java based Applications
+	
+	JDK :- Java Development KIT
+	JRE:- Part of JDK  () 
+	JVM :- it is a part of JRE it is a runtime Engine to run java classes. To load and run java application line by line
+	Jvm is divided into 3 components 
+	Class loader subsystem (Responsible to load java class files ):- To load .class files into Memory Area (Loading, Linking and Initialization) 
+	Execution Engine is responsbile to execute the program Line by line 
+	Memory Areas:- Method Area(.class file), Heap Area(Where objects will be stored), Stack Area, PC Registers(Next execution instruction Address), Native Method Stacks
+	
+	Execution Engine -> Java Native Interface(JNI), Native Method Libraries 
+	
+	
+	
+	
+	
+	
+
+
